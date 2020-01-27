@@ -4,3 +4,29 @@
     margin: $s-size 0 0 0;
     padding: 0 $s-size;
 }
+
+.add-option {
+    display: flex;
+    flex-direction: column;
+    padding: $s-size;
+}
+
+.add-option__input {
+    background-color: $dark-blue;
+    border: none;
+    color: $off-white;
+    border-bottom: .3rem solid darken($dark-blue, 10%);
+    flex-grow: 1;
+    margin: 0 0 $ss-size 0;
+    padding: $ss-size;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .add-option {
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $ss-size 0 0;
+    }
+}
