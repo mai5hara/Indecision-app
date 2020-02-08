@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Mai Gohara",
   "license": "MIT",
+  "homepage": "https://mai5hara.github.io/Indecision-app/",
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack",
@@ -33,6 +34,5 @@
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  },
-  "homepage": "https://mai5hara.github.io/Indecision-app/"
+  }
 }
