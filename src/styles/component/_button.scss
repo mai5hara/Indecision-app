@@ -10,6 +10,27 @@
     width: 100%;
 }
 
+.big-button-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-button-blue {
+    @extend .big-button;
+    width: 48%;
+    
+    background: #025da8;
+    border-bottom: .6rem solid darken(#025da8, 10%);
+}
+
+.big-button-green {
+    @extend .big-button;
+    width: 48%;
+    background: #00c896;
+    border-bottom: .6rem solid darken(#00c896, 10%);
+}
+
 .big-button:disabled {
     opacity: .5;
 }
@@ -21,6 +42,11 @@
     color: #fff;
     font-weight: 500;
     padding: $ss-size;
+}
+
+.button2 {
+    @extend .button;
+    margin-right: .8rem;
 }
 
 .button--link {
