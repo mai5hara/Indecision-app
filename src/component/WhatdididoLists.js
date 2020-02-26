@@ -11,12 +11,6 @@ const WhatdididoLists = (props) => {
             >
                 Remove All
             </button>
-            <button 
-                className="button button--link"
-                // onClick={props.hasClicked()}
-            >
-                Back to options
-            </button>
         </div>
             {
                 props.ididList.map((optionSave, index) => (
