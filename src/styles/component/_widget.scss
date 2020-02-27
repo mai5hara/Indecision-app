@@ -1,4 +1,4 @@
-.widget {
+.widget_options, .widget_didido {
     background: $light-blue;
     margin-bottom: $l-size;
 }
@@ -22,4 +22,20 @@
 .widget-header__title {
     margin: 0;
 
+}
+
+.display_dididolists {
+    display: none;
+}
+
+.display_dididolists_active {
+    display: block;
+}
+
+.display_options {
+    display: none;
+}
+
+.display_options_active {
+    display: block;
 }

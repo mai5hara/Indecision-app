@@ -42,6 +42,7 @@ class IndecisionApp extends React.Component {
         this.setState((prevState) => ({
             options: prevState.options.filter((option) => optionToRemove !== option)
         }));
+        console.log(prevState)
     }
 
     handlePick() {
