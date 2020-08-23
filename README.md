@@ -1,4 +1,4 @@
-# Indecision-app
+# Indecision App
 
 This is a to decision application for what should I do.
 
